@@ -7,7 +7,7 @@ import Incognito from "./assets/rey_incognito.png";
 function App() {
   const reyes = ["Atanagildo", "Ataulfo", "Ervigio"];
   const imgReyes = [Atanagildo, Ataulfo, Ervigio];
-  const cambioRey = (e: unknown) => {
+  const cambioRey = (e: any) => {
     if (
       e.target.src.includes("ervigio") ||
       e.target.src.includes("ataulfo") ||
@@ -20,7 +20,7 @@ function App() {
       e.target.style.visibility = "hidden";
     }
   };
-  const cambioParrafo = (e) =>{
+  const cambioParrafo = (e:any) =>{
     if (e.target.outerText.includes("Ervigio") || e.target.outerText.includes("Atanagildo") || e.target.outerText.includes("Ataulfo")) {
       e.target.innerHTML = "Visto"
     }else{
