@@ -1,6 +1,8 @@
 # React + TypeScript + Vite
 
-![Lección #1](https://img001.prntscr.com/file/img001/dxeyU8R6TRqk8W-mMHAZWg.png)
+![Lección #1](https://img001.prntscr.com/file/img001/fF3yIdPVTbKaiM87_UgDDg.png)
+
+Ver en [Netilfy](https://taupe-pithivier-f46ba7.netlify.app/)
 
 
 
